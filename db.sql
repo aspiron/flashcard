@@ -268,10 +268,10 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 
 
--- sequelize model:create --name users --attributes id:integer, username:string,role:string,password:string,active:string
--- sequelize model:create --name quest_draft --attributes id:integer, title:string,text:string,teacher_id:integer,active:string
--- sequelize model:create --name group --attributes id:integer, name:string,teacher_id:integer,active:string
--- sequelize model:create --name group_quest --attributes id:integer, teacher_id:integer,active:string
--- sequelize model:create --name group_students --attributes id:integer, user_id:integer, group_id:integer, active:string
--- sequelize model:create --name group_quest_answers --attributes id:integer, teacher_id:integer, user_id:integer, group_quest_id:integer,answer:string,active:string
+-- sequelize model:create --name Users --attributes id:integer, username:string,role:string,password:string,active:string
+-- sequelize model:create --name Quest_draft --attributes id:integer, title:string,text:string,teacher_id:integer,active:string
+-- sequelize model:create --name Group --attributes id:integer, name:string,teacher_id:integer,active:string
+-- sequelize model:create --name Group_quest --attributes id:integer, teacher_id:integer,active:string
+-- sequelize model:create --name Group_students --attributes id:integer, user_id:integer, group_id:integer, active:string
+-- sequelize model:create --name Group_quest_answers --attributes id:integer, teacher_id:integer, user_id:integer, group_quest_id:integer,answer:string,active:string
 -- sequelize-auto -o "./server/models" -d flashcard -h localhost -u root -p 3306 -x 1234 -e mysql
