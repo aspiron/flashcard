@@ -12,7 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
-    "braces": "^3.0.2",
+    "braces": "^2.3.1",
     "nodemon": "^2.0.2"
   },
   "dependencies": {
@@ -21,8 +21,7 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "morgan": "^1.9.1",
-    "pg": "^7.14.0",
-    "pg-hstore": "^2.3.3",
+    "mysql2": "^2.0.2",
     "sequelize": "^5.21.3"
   }
 }
